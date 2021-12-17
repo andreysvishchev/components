@@ -1,0 +1,30 @@
+.tabs {}
+
+.tabs__list {
+  display: flex;
+  list-style: none;
+}
+
+.tabs__item {
+  margin-right: 10px;
+}
+
+.tabs__button {
+  background-color: #ccc;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tabs__button--active {
+  background-color: blue;
+  pointer-events: none;
+}
+
+.tabs__content {
+  display: none;
+}
+
+.tabs__content--active {
+  display: block;
+}

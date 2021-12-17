@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <div class="tabs">
+    <ul class="tabs__list">
+      <li class="tabs__item">
+        <button class="tabs__button tabs__button--active" data-tabs-path="1">кнопка 1</button>
+      </li>
+      <li class="tabs__item">
+        <button class="tabs__button" data-tabs-path="2">кнопка 2</button>
+      </li>
+      <li class="tabs__item">
+        <button class="tabs__button" data-tabs-path="3">кнопка 3</button>
+      </li>
+      <li class="tabs__item">
+        <button class="tabs__button" data-tabs-path="4">кнопка 4</button>
+      </li>
+    </ul>
+
+    <div class="tabs__content tabs__content--active" data-tabs-target="1">
+      <div class="content">
+        <h1 class="content__title">Привет</h1>
+      </div>
+    </div>
+    <div class="tabs__content" data-tabs-target="2">
+      <div class="content">
+        <h1 class="content__title">Привет</h1>
+      </div>
+    </div>
+    <div class="tabs__content" data-tabs-target="3">
+      <div class="content">
+        <h1 class="content__title">Привет</h1>
+      </div>
+    </div>
+    <div class="tabs__content" data-tabs-target="4">
+      <div class="content">
+        <h1 class="content__title">Привет</h1>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
