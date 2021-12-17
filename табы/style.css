@@ -17,7 +17,7 @@
 }
 
 .tabs__button--active {
-  background-color: blue;
+  background-color: rgb(135, 135, 214);
   pointer-events: none;
 }
 
